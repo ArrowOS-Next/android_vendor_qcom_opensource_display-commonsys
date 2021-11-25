@@ -6,6 +6,10 @@ PRODUCT_PACKAGES += libdisplayconfig.system \
                     libcomposerextn.qti \
                     libdisplayconfig.system.qti
 
+PRODUCT_PACKAGES += libdisplayconfig.qti \
+                    libgralloc.qti \
+                    libqdMetaData
+
 SOONG_CONFIG_NAMESPACES += qtidisplaycommonsys
 # Soong Keys
 SOONG_CONFIG_qtidisplaycommonsys := displayextension composer3ext
